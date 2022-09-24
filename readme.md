@@ -18,9 +18,9 @@ simple, elegant, creative
 
 ## Find 2-3 websites that have that look, and link them here
 
-(https://en.wikipedia.org/wiki/The_Wall) - it was inspired by the pink floyd "the wall" album cover
+(https://en.wikipedia.org/wiki/The_Wall) - the pink floyd "the wall" album cover
 https://carrd.co/ - inspired the card design
-https://www.simplycards.com/en/
+https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/ - button design.
 
 ## What is one thing you want to be able to build after taking this class?
 

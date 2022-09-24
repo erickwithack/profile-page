@@ -1,39 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lato:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Lato:wght@900&family=Merriweather:wght@700&display=swap");
 
-
-html{
-  font-family: 'Baloo 2', cursive;
+html {
+  font-family: "Baloo 2", cursive;
   background-image: url("https://cdn.glitch.global/34137811-e54e-4120-810d-37d9d6b7e5a7/thumbnails%2F360_F_469544061_auUkUDl5hADuGJ1Memi6dBJefegk4DpP.jpeg?1664050239258");
   background-repeat: repeat;
   text-align: center;
-  
 }
 
-h1, h2, h3{
-  font-family: 'Lato', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
 }
 
-.selfie{
+.selfie {
   height: 350px;
   width: 100%;
   border: 2px solid black;
-  box-shadow:  1px 3px 15px black;
+  box-shadow: 1px 3px 15px black;
   border-radius: 50%;
 }
 
-.content{
+.content {
   padding: 25px;
-  width: 300px;
-  border: 12px solid hsl(320, 40%, 40%);
+  width: 350px;
+  border: 12px solid hsl(320, 0%, 40%);
   box-shadow: 1px 3px 15px black;
+  border-radius: 15px;
 }
 
-button.logger{
-  padding: 2px 7px;
+button.logger {
+  margin-top: 20px;
+  top: 50%;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
 }
 
-button.logger:hover{
+button.logger:hover {
   color: red;
+  transition: 0.7s;
 }
-
