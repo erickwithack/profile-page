@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lato:wght@900&display=swap');
 
 
 html{
   font-family: 'Baloo 2', cursive;
+  background-image: url("https://cdn.glitch.global/34137811-e54e-4120-810d-37d9d6b7e5a7/thumbnails%2F360_F_469544061_auUkUDl5hADuGJ1Memi6dBJefegk4DpP.jpeg?1664050239258");
+  background-repeat: repeat;
+  text-align: center;
+  
+}
+
+h1, h2, h3{
+  font-family: 'Lato', sans-serif;
 }
 
 
 .selfie{
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
   border: 2px solid black;
   box-shadow:  1px 3px 15px black;
-  border-radius: 1000px;
+  border-radius: 50%;
 }
