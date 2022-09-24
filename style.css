@@ -14,11 +14,26 @@ h1, h2, h3{
   font-family: 'Lato', sans-serif;
 }
 
-
 .selfie{
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 100%;
   border: 2px solid black;
   box-shadow:  1px 3px 15px black;
   border-radius: 50%;
 }
+
+.content{
+  padding: 25px;
+  width: 300px;
+  border: 12px solid hsl(320, 40%, 40%);
+  box-shadow: 1px 3px 15px black;
+}
+
+button.logger{
+  padding: 2px 7px;
+}
+
+button.logger:hover{
+  color: red;
+}
+
