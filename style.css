@@ -61,7 +61,7 @@ button.logger:hover {
 
 .assignments {
   height: 632px;
-  width: 500px;
+  flex-grow: 100;
   border-radius: 10px;
   background-color: grey;
   margin-left: 20px;
