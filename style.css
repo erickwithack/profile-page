@@ -60,10 +60,19 @@ button.logger:hover {
 }
 
 .assignments {
+  text-align: left;
   height: 632px;
   flex-grow: 100;
   border-radius: 10px;
   background-color: grey;
   margin-left: 20px;
   padding: 20px;
+}
+
+#assignments-title{
+  text-align: center;
+}
+ 
+.assignments a:hover{
+  color: red;
 }
